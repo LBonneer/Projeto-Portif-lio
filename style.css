@@ -1,0 +1,172 @@
+/*Estilo Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #f4f4f4
+      
+}
+.interface{
+    max-width: 1700px;
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+
+/* Estilo do Cabeçalho*/
+header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 4px 14%;
+    font-size: 22px;
+}
+
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: #fff;
+    transform: scale(1.17);
+}
+
+header nav ul{
+   list-style-type: none;
+   padding: 0;
+}
+header nav ul li{
+   display: inline-block;
+   margin: 0 80px;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ESTILO DO TOPO DO SITE*/
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.topo-do-site{
+    font-size: 22px;
+    line-height: 28x;
+}
+.topo-do-site h1{
+    font-size: 42px;
+    counter-reset: #7d7d7d;
+    line-height: 60px;
+}
+
+
+/* Estilo de imagens e section*/
+main img{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 22%;
+   
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.galeria img {
+    max-width: 100%;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 22%;
+}
+
+h2{
+    margin: 2%;
+}
+section {
+    margin-bottom: 40px;
+}
+
+.galeria article {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para form*/
+form {
+   margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #e44949;
+    color: #fff;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Estilos para Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #e44949;
+    color: white;
+}
+
+/* Animações */
+button:hover {
+    transition: background-color 0.3s ease;
+    background-color: #555;
+}

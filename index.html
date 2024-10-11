@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--GOOGLE FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM DO GOOGLE FONTES-->
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+ <header>
+  <div class="interface">
+    <div class="logo">
+        <a href="#">
+            <img src="imagens/Logo.png" alt="Lucas Bonner">
+        </a>
+    </div><!--logo-->
+    <nav class="menu-desktop">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contatos</a></li>
+            <li><a href="#Habilidades">Sobre</a></li>
+        </ul>
+    </nav>
+  </div> <!--interface-->
+ </header>
+
+ <main>
+<section class="topo-do-site">
+    <div id = "inicio"></div>
+    <div class="interface">
+      <div class="flex">
+        <div class="txt-topo-site">
+            <h1>Bem-vindo ao Meu Portfólio</h1>
+            <p>Olá, sou <strong>Lucas Bonner</strong>, um desenvolvedor apaixonado por criar soluções web inovadoras. <br>Confira meus projetos abaixo!</p>
+        </div><!--txt-topo-site-->
+        <div class="img-top-site">
+            <img src="imagens/Lucas.jpg" alt="Lucas Bonner">
+        </div> <!--img-top-site-->
+
+      </div><!--flex-->
+    </div> <!--interface-->
+</section><!--topo-do-site-->
+ </main>
+  <!-- Seção de Projetos -->
+  <section id="projetos">
+    <h2>Meus Projetos</h2>
+    <div class="galeria">
+        <article>
+            <img src="imagens/projeto 01.png" alt="Projeto 01">
+            <h3>Projeto HTML</h3>
+            <p>Projeto de criação de portifólio em HTML <br> Feito para navegação web com semântica <br> e funcionabilidade.</p>
+        </article>
+        <article>
+            <img src="imagens/projeto 02.png" alt="Projeto 2">
+            <h3>Projeto CSS</h3>
+            <p>Projeto de estilização da página, com elementos <br> de efeito que deixam oprojeto<br> com boa aparência visual.</p>
+        </article>
+        <article>
+            <img src="imagens/projeto 03.png" alt="Projeto 3">
+            <h3>Projeto Email Marketing</h3>
+            <p>Usando HTML e CSS para fazer emails <br>comerciais para empresas com interações <br>e links  direcionados ao site.</p>
+        </article>
+    </div>
+</section>
+<hr>
+<!-- Seção de Contato -->
+<section id="contato">
+    <h2>Entre em Contato</h2>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5587.418330965878!2d-34.877762718048736!3d-8.009105167763263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18198905e6ab%3A0xd28a49c108d2bcca!2sR.%20Jaqueline%20Kennedy%2C%2058%20-%20Peixinhos%2C%20Olinda%20-%20PE%2C%2053260-190!5e0!3m2!1spt-BR!2sbr!4v1728526092565!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+<hr>
+<!-- Seção de Habilidades -->
+<section id="Habilidades">
+    <h2>Minhas Habilidades</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Habilidade</th>
+                <th>Nível de Proficiência</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Avançado</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediário</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Básico</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+</main>
+   
+<footer>
+    <p>&copy; 2024 L.Bonner. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
